@@ -13,11 +13,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
-
 app.use(express.json());
 app.use(routes);
 
