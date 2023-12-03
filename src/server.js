@@ -7,8 +7,7 @@ require("./database");
 const app = express();
 
 let corsOptions = {
-  origin: 'http://localhost:4200',
-  optionsSuccessStatus: 200
+  origin: ['http://localhost:4200'],
 }
 
 app.use(cors(corsOptions));
