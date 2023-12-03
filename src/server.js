@@ -1,9 +1,17 @@
 const express = require("express");
 const routes = require("./routes");
+const cors = require("cors");
 
 require("./database");
 
 const app = express();
+
+let corsOptions = {
+  origin: 'http://localhost:4200',
+  optionsSuccessStatus: 200
+}
+
+app.use(cors(corsOptions));
 
 app.use(function (req, res, next) {
   res.setHeader("Access-Control-Allow-Origin", "*");
