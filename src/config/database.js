@@ -1,8 +1,8 @@
 module.exports = {
   dialect: "postgres",
-  host: "localhost",
-  username: "root",
-  password: "admin",
+  host: "viaduct.proxy.rlwy.net",
+  username: "postgres",
+  password: "ec*662bF6A-B3g25AcB-a415326DafaA",
   database: "postgres",
   define: {
     timestamps: true,
