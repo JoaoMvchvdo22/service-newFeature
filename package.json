@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "build": "rm -rf ./dist && tsc",
-    "start": "node ./dist/src/server.js"
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
